@@ -24,5 +24,5 @@ function appendKitten(element) {
 
 function prependKitten(element) {
   var array1 = [element, ...array]
-  return element
+  return array1
 }
