@@ -18,11 +18,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(array,element) {
-  var array1 = [...array, element]
+  var array1 = [...kittens, element]
   return array1
 }
 
 function prependKitten(array,element) {
-  var array1 = [element, ...array]
+  var array1 = [element, ...kittens]
   return array1
 }
