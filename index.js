@@ -21,3 +21,8 @@ function appendKitten(element,array) {
   var array1 = [...array, element]
   return array1
 }
+
+function prependKitten(element) {
+  var array1 = [element, ...cities]
+  return element
+}
