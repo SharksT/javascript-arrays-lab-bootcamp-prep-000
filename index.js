@@ -18,6 +18,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(element,array) {
-  var array1 = [...array, '$[element]']
+  var array1 = [...array, element]
   return array1
 }
